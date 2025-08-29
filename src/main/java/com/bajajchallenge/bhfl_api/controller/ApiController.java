@@ -17,7 +17,7 @@ public class ApiController {
 
     @PostMapping("/bfhl")
     public ResponseEntity<ResponsePayload> processData(@RequestBody RequestPayload request) {
-        final String userId = "Hemanth_Balgi_06122003"; 
+        final String userId = "hemanth_balgi_06122003"; 
         final String emailId = "hemanth.shivanand2022@vitstudent.ac.in";
         final String rollNumber = "22BCE3106";
 
